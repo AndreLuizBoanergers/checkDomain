@@ -210,6 +210,7 @@ function checkDomainExtension(url) {
   if (domainEntry && tld) {
     // Se a extensão for encontrada, exibe o país no console e retorna false
     const domainInfo = `[!] TLD ${tld} do país: ${domainEntry.country}`;
+    //futuras informacoes  infos MXRecords PTX DNS  etc..
     return domainInfo;
   }
   // Se a extensão não for encontrada, retorna true
